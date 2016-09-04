@@ -329,7 +329,7 @@
 	volume = 120
 	slot_flags = SLOT_HEAD
 	flags = OPENCONTAINER
-	
+
 /obj/item/weapon/reagent_containers/glass/bucket/attackby(obj/D, mob/user, params)
 	if(isprox(D))
 		to_chat(user, "You add [D] to [src].")
